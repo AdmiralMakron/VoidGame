@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/WBP_Inventory.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/BP_InventoryComponent.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/WBP_Grid.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/SGridLine.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/WBP_Item.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/STile.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/Brush_Color.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
+			]
+		}
+	]
+}
