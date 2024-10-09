@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/WBP_Grid.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/dagger.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/great_hammer.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/shield.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/BP_Item.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/BP_Item_Object.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/BP_Hammer.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/BP_Dagger.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/BP_Shield.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/BP_InventoryComponent.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_IconBase.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Hammer.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Dagger.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Shield.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Dagger_R.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Hammer_R.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/M_Icon_Shield_R.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/NG/XJ8879J1CQDICXYTYWPVNV.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OP/808T60CT3C1MKTAQF99S1V.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SM/NAEDSJ0DCVDOCIJGQSAXQV.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Weapon_Pack/Map/Weapons_Kit_BuiltData.uasset",
+				"C:/GitHub/VoidGame/VoidGame/Content/Weapon_Pack/Map/Weapons_Kit.umap"
+			]
+		}
+	]
+}
