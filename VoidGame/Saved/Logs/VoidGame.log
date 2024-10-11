@@ -2593,3 +2593,26 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.11-10.10.02:179][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.10.11-10.10.02:185][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
 [2024.10.11-10.10.02:250][410]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.10.11-10.10.27:848][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.10.11-10.10.27:859][517]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Island_Auto3
+[2024.10.11-10.10.27:859][517]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Island_Auto3DA744C894CA912639A331A9C07F48F83.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Autosaves/Game/Maps/Island_Auto3.umap'
+[2024.10.11-10.10.27:860][517]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Autosaves/Game/Maps/Island_Auto3.umap is in the /Temp path, will not scan.
+[2024.10.11-10.10.27:860][517]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Island_Auto3 is in the /Temp path, will not scan.
+[2024.10.11-10.10.27:860][517]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Island_Auto3 is in the /Temp path, will not scan.
+[2024.10.11-10.10.27:861][517]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Island' took 0.052
+[2024.10.11-10.10.27:861][517]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.052
+[2024.10.11-10.13.04:062][ 57]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.11-10.13.04:077][ 57]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.11-10.13.04:082][ 57]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.13.04:082][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.13.04:127][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.11-10.13.04:127][ 57]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.13.04:127][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.13.06:501][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.13.06:693][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.10.11-10.13.06:711][187]LogSavePackage: Moving output files for package: /Game/Maps/Island
+[2024.10.11-10.13.06:712][187]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Island90E6375A446FEE940DA1F1B6A611DF92.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Maps/Island.umap'
+[2024.10.11-10.13.06:720][187]LogFileHelpers: Saving map 'Island' took 0.094
+[2024.10.11-10.13.06:747][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 4.26 sec)
+[2024.10.11-10.13.06:752][187]AssetCheck: New page: Asset Save: Island
+[2024.10.11-10.13.06:752][187]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Island.Island
