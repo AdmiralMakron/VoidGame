@@ -1300,3 +1300,1296 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.11-09.31.32:083][682]LogShaderCompilers: Display: Worker (8/8) finished batch of 10 jobs in 81.635s, FRenderVolumetricCloudRenderViewCS [WorkerTime=20.975s], FRenderVolumetricCloudRenderViewCS [WorkerTime=18.824s], FRenderVolumetricCloudRenderViewCS [WorkerTime=16.264s], FRenderVolumetricCloudRenderViewCS [WorkerTime=15.293s], FRenderVolumetricCloudRenderViewCS [WorkerTime=3.944s], FVolumetricCloudShadowPS [WorkerTime=1.567s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=1.251s], TBasePassVSFNoLightMapPolicy [WorkerTime=1.194s], FDebugViewModePS [WorkerTime=1.185s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=1.041s]
 [2024.10.11-09.31.32:890][730]LogShaderCompilers: Display: Worker (2/8) finished batch of 10 jobs in 82.442s, FRenderVolumetricCloudRenderViewCS [WorkerTime=17.513s], FRenderVolumetricCloudRenderViewCS [WorkerTime=15.588s], FRenderVolumetricCloudRenderViewCS [WorkerTime=13.921s], FCloudRenderViewPS111 [WorkerTime=9.436s], FRenderVolumetricCloudRenderViewCS [WorkerTime=8.594s], FRenderVolumetricCloudRenderViewCS [WorkerTime=8.331s], FCloudRenderViewPS100 [WorkerTime=6.256s], FDebugViewModeVS [WorkerTime=1.004s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=0.927s], TVoxelizeVolumePS<VMode_Object_Box> [WorkerTime=0.743s]
 [2024.10.11-09.32.55:080][359]LogSlate: Took 0.009965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.11-09.34.50:602][658]LogStatusBar: Looking status bar with open content browser drawer...
+[2024.10.11-09.34.50:603][658]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2024.10.11-09.34.50:660][658]LogViewport: Scene viewport resized to 1523x547, mode Windowed.
+[2024.10.11-09.35.04:813][440]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.11-09.35.04:848][440]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.11-09.35.04:875][441]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.35.04:889][441]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: Total job queries 3,294, among them cache hits 0 (0.00%)
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: Tracking 3,287 distinct input hashes that result in 2,352 distinct outputs (71.55%)
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: RAM used: 11.64 MiB of 1.60 GiB budget. Usage: 0.71%
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.11-09.35.05:429][461]LogShaderCompilers: Display: Shaders Compiled: 3,287
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Jobs assigned 3,290, completed 3,287 (99.91%)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Average time worker was idle: 2.80 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Time job spent in pending queue: average 329.88 s, longest 795.74 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Job execution time: average 20.36 s, max 112.46 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Job life time (pending + execution): average 350.54 s, max 807.96
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Shader code size: average 14.379 KiB, min 140 B, max 154.367 KiB
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 904.60 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Jobs were issued in 404 batches (only local compilation was used), average 8.14 jobs/batch
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Average processing rate: 3.63 jobs/sec
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Total thread time: 6,995.362 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Total thread preprocess time: 203.902 s
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Percentage time preprocessing: 2.91%
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Effective parallelization: 7.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 29.61 sec, max 102.86 sec, min 4.13 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 24.73 sec, max 24.73 sec, min 24.73 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 14.70 sec, max 42.98 sec, min 0.97 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 13.39 sec, max 55.45 sec, min 1.02 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 13.38% of total time (compiled  128 times, average 7.31 sec, max 18.74 sec, min 1.56 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 11.51% of total time (compiled  128 times, average 6.29 sec, max 9.60 sec, min 4.08 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.31% of total time (compiled   90 times, average 5.68 sec, max 11.20 sec, min 0.97 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 6.32% of total time (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display:                                     FReflectionTraceVoxelsCS - 5.01% of total time (compiled   96 times, average 3.65 sec, max 7.06 sec, min 0.49 sec)
+[2024.10.11-09.35.05:430][461]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.35.07:460][563]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.10.11-09.35.07:461][563]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.11-09.35.13:045][881]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.11-09.35.13:072][881]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.11-09.35.13:097][882]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.11-09.35.14:430][958]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2024.10.11-09.35.14:430][958]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.11-09.35.15:806][ 38]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.10.11-09.35.15:806][ 38]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.10.11-09.35.20:604][285]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.10.11-09.35.20:622][285]LogContentBrowser: Creating deferred item: NewWorld
+[2024.10.11-09.35.20:655][287]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.10.11-09.35.30:573][857]LogContentBrowser: Attempting asset rename: NewWorld -> SingleIsland
+[2024.10.11-09.35.30:587][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.35.30:587][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.35.30:594][857]LogContentBrowser: End creating deferred item NewWorld
+[2024.10.11-09.35.31:728][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.11-09.35.33:491][917]LogSlate: Window 'Save Content' being destroyed
+[2024.10.11-09.35.33:557][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.35.33:662][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.11-09.35.33:675][917]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.009941 seconds
+[2024.10.11-09.35.33:683][917]LogSavePackage: Moving output files for package: /Game/Maps/SingleIsland
+[2024.10.11-09.35.33:683][917]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/SingleIsland35B133F347741FD4E73FC692D0F6BCA4.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Maps/SingleIsland.umap'
+[2024.10.11-09.35.33:699][917]LogFileHelpers: Saving map 'SingleIsland' took 0.046
+[2024.10.11-09.35.33:738][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms
+[2024.10.11-09.35.33:739][917]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/SingleIsland.SingleIsland
+[2024.10.11-09.35.33:739][917]Cmd: MAP LOAD FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Maps/SingleIsland.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.10.11-09.35.33:740][917]LightingResults: New page: Lighting Build
+[2024.10.11-09.35.33:740][917]LoadErrors: New page: Loading map: SingleIsland.umap
+[2024.10.11-09.35.33:793][917]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.35.33:793][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.35.33:797][917]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.11-09.35.33:797][917]MapCheck: New page: Map Check
+[2024.10.11-09.35.33:797][917]LightingResults: New page: Lighting Build
+[2024.10.11-09.35.33:802][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-09.35.33:811][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.11-09.35.33:813][917]LogWorld: UWorld::CleanupWorld for SingleIsland, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.35.33:813][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.35.33:821][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.10.11-09.35.33:828][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.11-09.35.33:831][917]LogAudio: Display: Audio Device (ID: 1) registered with world 'SingleIsland'.
+[2024.10.11-09.35.33:831][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.35.33:831][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.35.33:831][917]LogAIModule: Creating AISystem for world SingleIsland
+[2024.10.11-09.35.33:847][917]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.11-09.35.33:856][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.10.11-09.35.33:859][917]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.11-09.35.33:859][917]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2024.10.11-09.35.33:865][917]AssetCheck: New page: Asset Save: SingleIsland
+[2024.10.11-09.35.33:865][917]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/SingleIsland.SingleIsland
+[2024.10.11-09.35.33:886][918]LogAutomationController: Ignoring very large delta of 2.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.11-09.35.36:755][ 84]LogEditorViewport: Clicking Background
+[2024.10.11-09.36.03:938][535]LogEditorViewport: Clicking Background
+[2024.10.11-09.36.20:044][380]LogSlate: Window 'VoidGame - Unreal Editor' being destroyed
+[2024.10.11-09.36.20:309][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.36.20:328][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.36.20:347][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.36.20:365][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.36.20:455][380]LogViewport: Scene viewport resized to 1523x845, mode Windowed.
+[2024.10.11-09.36.35:050][144]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.11-09.36.36:302][212]LogEditorViewport: Clicking Background
+[2024.10.11-09.36.47:935][824]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.10.11-09.36.51:890][ 29]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.10.11-09.36.51:907][ 29]LogContentBrowser: Creating deferred item: NewWorld
+[2024.10.11-09.36.51:916][ 30]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.10.11-09.36.58:442][412]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2024.10.11-09.36.58:443][412]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.36.58:443][412]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.36.58:446][412]LogContentBrowser: End creating deferred item NewWorld
+[2024.10.11-09.36.59:851][488]LogObjectTools: Deleting 1 worlds: /Game/Maps/NewWorld.NewWorld
+[2024.10.11-09.36.59:852][488]LogObjectTools: Currently 2 active worlds: /Game/Maps/SingleIsland.SingleIsland, /Engine/Transient.World_0
+[2024.10.11-09.36.59:892][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.10.11-09.37.00:855][488]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.11-09.37.00:892][488]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.37.00:893][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.37.00:902][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.10.11-09.37.00:911][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.10.11-09.37.00:920][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.10.11-09.37.18:615][939]LogSlate: Window 'New Level' being destroyed
+[2024.10.11-09.37.18:697][940]LogAutomationController: Ignoring very large delta of 3.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.11-09.37.20:693][ 31]LogObjectTools: Deleting 1 worlds: /Game/Maps/SingleIsland.SingleIsland
+[2024.10.11-09.37.20:693][ 31]LogObjectTools: Currently 2 active worlds: /Game/Maps/SingleIsland.SingleIsland, /Engine/Transient.World_0
+[2024.10.11-09.37.21:674][ 31]LogSlate: Window 'Unable to delete level' being destroyed
+[2024.10.11-09.37.21:702][ 31]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2024.10.11-09.37.28:150][296]LogSlate: Window 'New Level' being destroyed
+[2024.10.11-09.37.28:213][296]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.10.11-09.37.28:213][296]LightingResults: New page: Lighting Build
+[2024.10.11-09.37.28:213][296]LoadErrors: New page: Loading map: Template_Default.umap
+[2024.10.11-09.37.28:239][296]LogWorld: UWorld::CleanupWorld for SingleIsland, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.37.28:240][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.37.28:240][296]MapCheck: New page: Map Check
+[2024.10.11-09.37.28:240][296]LightingResults: New page: Lighting Build
+[2024.10.11-09.37.28:249][296]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-09.37.28:254][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.10.11-09.37.28:287][296]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2024.10.11-09.37.28:287][296]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.37.28:288][296]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.37.28:288][296]LogAIModule: Creating AISystem for world Untitled_1
+[2024.10.11-09.37.28:303][296]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.11-09.37.28:309][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.10.11-09.37.28:310][296]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.11-09.37.28:310][296]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.184ms to complete.
+[2024.10.11-09.37.33:571][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.37.33:610][486]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.37.37:096][525]LogSlate: Window 'Save Level As' being destroyed
+[2024.10.11-09.37.37:277][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.10.11-09.37.37:286][525]LogSavePackage: Moving output files for package: /Game/Maps/Island
+[2024.10.11-09.37.37:287][525]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Island880BB5E442DB70C32302A7AECF22B714.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Maps/Island.umap'
+[2024.10.11-09.37.37:315][525]LogFileHelpers: Saving map 'Island' took 0.186
+[2024.10.11-09.37.37:315][525]Cmd: MAP LOAD FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Maps/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.10.11-09.37.37:315][525]LightingResults: New page: Lighting Build
+[2024.10.11-09.37.37:315][525]LoadErrors: New page: Loading map: Island.umap
+[2024.10.11-09.37.37:341][525]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.37.37:341][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.37.37:341][525]MapCheck: New page: Map Check
+[2024.10.11-09.37.37:341][525]LightingResults: New page: Lighting Build
+[2024.10.11-09.37.37:346][525]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-09.37.37:347][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.10.11-09.37.37:352][525]LogAudio: Display: Audio Device (ID: 1) registered with world 'Island'.
+[2024.10.11-09.37.37:352][525]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.37.37:352][525]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.37.37:353][525]LogAIModule: Creating AISystem for world Island
+[2024.10.11-09.37.37:366][525]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.11-09.37.37:373][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.11-09.37.37:376][525]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.11-09.37.37:376][525]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2024.10.11-09.37.37:379][525]AssetCheck: New page: Asset Save: Island
+[2024.10.11-09.37.37:379][525]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Island.Island
+[2024.10.11-09.37.37:615][526]LogAutomationController: Ignoring very large delta of 3.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.11-09.37.39:781][615]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.37.39:808][615]LogObjectTools: Deleting 1 worlds: /Game/Maps/SingleIsland.SingleIsland
+[2024.10.11-09.37.39:808][615]LogObjectTools: Currently 4 active worlds: /Game/Maps/Island.Island, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2
+[2024.10.11-09.37.39:812][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.10.11-09.37.40:709][615]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.11-09.37.40:727][615]LogWorld: UWorld::CleanupWorld for SingleIsland, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.37.40:727][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.37.40:737][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.11-09.37.40:745][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.11-09.37.40:754][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.11-09.37.44:291][758]LogStatusBar: Looking status bar with open content browser drawer...
+[2024.10.11-09.37.44:291][758]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2024.10.11-09.37.44:321][758]LogViewport: Scene viewport resized to 1523x547, mode Windowed.
+[2024.10.11-09.38.08:817][ 13]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.11-09.38.08:888][ 13]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.11-09.38.08:953][ 14]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.11-09.38.10:715][108]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.10.11-09.38.10:716][108]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.11-09.38.16:250][396]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.10.11-09.38.16:281][396]LogContentBrowser: Creating deferred item: NewFolder
+[2024.10.11-09.38.16:307][397]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.10.11-09.38.22:631][751]LogContentBrowser: Attempting asset rename: NewFolder -> Island
+[2024.10.11-09.38.22:632][751]LogContentBrowser: End creating deferred item NewFolder
+[2024.10.11-09.38.32:320][934]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.11-09.38.32:364][934]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.11-09.38.32:371][934]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.11-09.38.32:388][935]LogAutomationController: Ignoring very large delta of 6.14 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.11-09.38.32:414][936]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.11-09.38.54:116][157]LogContentBrowser: Attempting asset rename: NewBlueprint -> Interactable
+[2024.10.11-09.38.54:137][157]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.11-09.38.55:234][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.38.55:236][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.38.55:237][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.38.55:244][218]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.10.11-09.38.56:665][218]LogViewport: Scene viewport resized to 1134x805, mode Windowed.
+[2024.10.11-09.38.57:440][230]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, PhAT_FloorBox
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Total job queries 3,306, among them cache hits 0 (0.00%)
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Tracking 3,299 distinct input hashes that result in 2,356 distinct outputs (71.42%)
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: RAM used: 11.66 MiB of 1.60 GiB budget. Usage: 0.71%
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Shaders Compiled: 3,299
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Jobs assigned 3,302, completed 3,299 (99.91%)
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Average time worker was idle: 5.09 s
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Time job spent in pending queue: average 328.68 s, longest 795.74 s
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Job execution time: average 20.29 s, max 112.46 s
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Job life time (pending + execution): average 349.27 s, max 807.96
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Shader code size: average 14.343 KiB, min 140 B, max 154.367 KiB
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 907.38 s
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Jobs were issued in 416 batches (only local compilation was used), average 7.94 jobs/batch
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Average processing rate: 3.64 jobs/sec
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Total thread time: 7,001.122 s
+[2024.10.11-09.39.09:535][732]LogShaderCompilers: Display: Total thread preprocess time: 204.504 s
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display: Percentage time preprocessing: 2.92%
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display: Effective parallelization: 7.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 29.61 sec, max 102.86 sec, min 4.13 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 24.73 sec, max 24.73 sec, min 24.73 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 14.70 sec, max 42.98 sec, min 0.97 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 13.39 sec, max 55.45 sec, min 1.02 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 13.37% of total time (compiled  128 times, average 7.31 sec, max 18.74 sec, min 1.56 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 11.50% of total time (compiled  128 times, average 6.29 sec, max 9.60 sec, min 4.08 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.30% of total time (compiled   90 times, average 5.68 sec, max 11.20 sec, min 0.97 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 6.31% of total time (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display:                                     FReflectionTraceVoxelsCS - 5.01% of total time (compiled   96 times, average 3.65 sec, max 7.06 sec, min 0.49 sec)
+[2024.10.11-09.39.09:536][732]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.39.10:028][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.39.12:696][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.39.12:800][828]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to Window : Interactable .
+[2024.10.11-09.39.12:854][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-09.39.12:864][828]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-09.39.12:865][828]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/InteractableF151286942ADCE063A3D3083D53C3891.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-09.39.12:897][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 384 ms)
+[2024.10.11-09.39.12:899][828]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-09.39.12:899][828]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.39.26:619][281]LogSlate: Window 'Interactable' being destroyed
+[2024.10.11-09.39.26:658][281]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.39.26:658][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.39.27:495][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-09.39.27:519][320]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.11-09.39.27:520][320]LogPlayLevel: [PlayLevel] Compiling Interactable before play...
+[2024.10.11-09.39.27:566][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.11-09.39.27:567][320]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2024.10.11-09.39.27:568][320]PIE: New page: PIE session: Island (Oct 11, 2024, 1:39:27 AM)
+[2024.10.11-09.39.27:570][320]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2024.10.11-09.39.27:573][320]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.10.11-09.39.27:589][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-09.39.27:593][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003319s)
+[2024.10.11-09.39.27:593][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.003419s)
+[2024.10.11-09.39.27:618][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.10.11-09.39.27:619][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.39.27:620][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.39.27:620][321]LogAIModule: Creating AISystem for world Island
+[2024.10.11-09.39.27:621][321]LogPlayLevel: PIE: World Init took: (0.002166s)
+[2024.10.11-09.39.27:621][321]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-09.39.27:622][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-09.39.27:622][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-09.39.27:622][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-09.39.27:622][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-09.39.27:622][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-09.39.27:625][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-09.39.27:668][321]LogAudioMixer: Display: Using Audio Hardware Device DELL U2719D (HD Audio Driver for Display Audio)
+[2024.10.11-09.39.27:668][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-09.39.27:668][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-09.39.27:668][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-09.39.27:668][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.10.11-09.39.27:668][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.10.11-09.39.27:672][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.10.11-09.39.27:672][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.10.11-09.39.27:672][321]LogInit: FAudioDevice initialized with ID 2.
+[2024.10.11-09.39.27:672][321]LogAudio: Display: Audio Device (ID: 2) registered with world 'Island'.
+[2024.10.11-09.39.27:672][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.10.11-09.39.27:676][321]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-09.39.27:678][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-05.39.27
+[2024.10.11-09.39.27:679][321]LogWorld: Bringing up level for play took: 0.001262
+[2024.10.11-09.39.27:716][321]PIE: Server logged in
+[2024.10.11-09.39.27:717][321]PIE: Play in editor total start time 0.201 seconds.
+[2024.10.11-09.39.35:082][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.39.35:082][714]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-09.39.35:083][714]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.39.35:084][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.39.35:094][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-09.39.35:102][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.39.35:118][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-09.39.35:118][714]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.10.11-09.39.35:118][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.10.11-09.39.35:121][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.10.11-09.39.35:131][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.10.11-09.39.35:161][715]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.10.11-09.39.38:937][872]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.39.38:938][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.39.38:938][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.39.39:169][872]LogSlate: Took 0.000440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.10.11-09.41.46:867][126]BlueprintLog: New page: Compile Interactable
+[2024.10.11-09.41.46:923][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.10.11-09.41.48:901][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.41.49:096][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-09.41.49:111][195]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-09.41.49:112][195]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable6BFD3AD14D04C39C2648FD90F40B774C.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-09.41.49:139][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 621 ms)
+[2024.10.11-09.41.49:146][195]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-09.41.49:146][195]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.41.55:378][403]LogSlate: Took 0.007999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.10.11-09.42.25:771][436]BlueprintLog: New page: Compile Interactable
+[2024.10.11-09.42.25:823][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.10.11-09.42.35:336][746]BlueprintLog: New page: Compile Interactable
+[2024.10.11-09.42.35:369][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.10.11-09.43.35:243][346]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.43.35:293][347]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: Total job queries 3,320, among them cache hits 10 (0.30%)
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: Tracking 3,306 distinct input hashes that result in 2,359 distinct outputs (71.36%)
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: RAM used: 11.68 MiB of 1.60 GiB budget. Usage: 0.71%
+[2024.10.11-09.43.35:326][348]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Shaders Compiled: 3,306
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Jobs assigned 3,306, completed 3,306 (100%)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Average time worker was idle: 5.22 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Time job spent in pending queue: average 328.28 s, longest 795.74 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Job execution time: average 20.25 s, max 112.46 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Job life time (pending + execution): average 348.53 s, max 807.96
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Shader code size: average 14.327 KiB, min 140 B, max 154.367 KiB
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 908.84 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Jobs were issued in 420 batches (only local compilation was used), average 7.87 jobs/batch
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Average processing rate: 3.64 jobs/sec
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Total thread time: 7,006.447 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Total thread preprocess time: 205.045 s
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Percentage time preprocessing: 2.93%
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Effective parallelization: 7.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 29.61 sec, max 102.86 sec, min 4.13 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 24.73 sec, max 24.73 sec, min 24.73 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 14.70 sec, max 42.98 sec, min 0.97 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 13.39 sec, max 55.45 sec, min 1.02 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 13.36% of total time (compiled  128 times, average 7.31 sec, max 18.74 sec, min 1.56 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 11.49% of total time (compiled  128 times, average 6.29 sec, max 9.60 sec, min 4.08 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.30% of total time (compiled   90 times, average 5.68 sec, max 11.20 sec, min 0.97 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 6.31% of total time (compiled   34 times, average 13.00 sec, max 20.97 sec, min 3.94 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display:                                     FReflectionTraceVoxelsCS - 5.00% of total time (compiled   96 times, average 3.65 sec, max 7.06 sec, min 0.49 sec)
+[2024.10.11-09.43.35:327][348]LogShaderCompilers: Display: ================================================
+[2024.10.11-09.43.35:370][349]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.43.41:341][621]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController
+[2024.10.11-09.43.41:341][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.43.41:341][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.44.08:322][580]LogEditorTransaction: Undo Move Nodes
+[2024.10.11-09.44.35:447][846]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Ansh Bose QC35 II), InstanceID=1
+[2024.10.11-09.44.35:777][847]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23236
+[2024.10.11-09.44.38:783][856]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{4853ce1d-5dfb-4165-b9d4-dada50552c99}, Name=Headphones (Ansh Bose QC35 II)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=2672.16
+[2024.10.11-09.44.38:784][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.11-09.44.38:790][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.11-09.47.42:619][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.10.11-09.47.42:621][407]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Island' took 0.032
+[2024.10.11-09.47.42:624][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController] ([2] browsable assets)...
+[2024.10.11-09.47.42:624][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController]
+[2024.10.11-09.47.42:643][407]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController_Auto1
+[2024.10.11-09.47.42:643][407]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonPlayerController_A883DFDFD47C2AEA68065D884669A9451.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController_Auto1.uasset'
+[2024.10.11-09.47.42:645][407]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Island/Interactable] ([2] browsable assets)...
+[2024.10.11-09.47.42:662][407]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Island/Interactable.Interactable]
+[2024.10.11-09.47.42:662][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Island/Interactable]
+[2024.10.11-09.47.42:670][407]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Island/Interactable_Auto1
+[2024.10.11-09.47.42:670][407]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable_Auto1821C3D294088FBBF8A83B2B508ECDEA8.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Autosaves/Game/Island/Interactable_Auto1.uasset'
+[2024.10.11-09.47.42:671][407]LogFileHelpers: Auto-saving content packages took 0.049
+[2024.10.11-09.51.17:028][432]LogEditorTransaction: Undo Move Node
+[2024.10.11-09.51.17:348][435]LogEditorTransaction: Undo Rename Node
+[2024.10.11-09.51.17:556][437]LogEditorTransaction: Undo Add Node
+[2024.10.11-09.51.17:860][449]LogEditorTransaction: Undo Edit Health
+[2024.10.11-09.51.19:566][521]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-09.51.19:566][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-09.51.27:467][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.51.27:593][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-09.51.27:599][942]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-09.51.27:600][942]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/InteractableD11918144AE6704447401082DB682056.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-09.51.27:617][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 771 ms)
+[2024.10.11-09.51.27:619][942]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-09.51.27:619][942]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.51.39:056][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-09.51.39:056][479]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.51.39:056][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.53.30:703][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.53.30:854][616]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-09.53.30:854][616]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacterEAB38B7D4AC95B1BA7BF188A1ECF6E2E.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-09.53.30:873][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 941 ms)
+[2024.10.11-09.53.30:875][616]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-09.53.30:875][616]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-09.57.33:229][429]BlueprintLog: New page: Compile Interactable
+[2024.10.11-09.57.33:281][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.10.11-09.57.33:681][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.57.33:777][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-09.57.33:784][438]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-09.57.33:785][438]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/InteractableC275274E47B4608D611DF1A5ECE83111.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-09.57.33:813][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 1.07 sec)
+[2024.10.11-09.57.33:821][438]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-09.57.33:821][438]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.57.34:998][482]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-09.57.35:041][482]LogBlueprint: Error: [AssetLog] C:\Users\ansha\OneDrive\Documents\Unreal Projects\VoidGame\VoidGame\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2024.10.11-09.57.35:096][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.10.11-09.58.04:254][706]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.10.11-09.58.04:261][706]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Island' took 0.055
+[2024.10.11-09.58.04:261][706]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2024.10.11-09.58.04:276][706]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2024.10.11-09.58.04:276][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2024.10.11-09.58.04:298][706]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2
+[2024.10.11-09.58.04:298][706]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter_Auto211A0BB514E29B2D7A9283180585DE6A4.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2.uasset'
+[2024.10.11-09.58.04:299][706]LogFileHelpers: Auto-saving content packages took 0.039
+[2024.10.11-09.58.32:867][741]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-09.58.32:957][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.10.11-09.58.33:542][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.58.33:701][756]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-09.58.33:702][756]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacterF4AABD5D4A3C238C71FF129DED40C66C.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-09.58.33:721][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 1.25 sec)
+[2024.10.11-09.58.33:724][756]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-09.58.33:724][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-09.58.44:830][144]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-09.58.44:923][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.10.11-09.58.46:246][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.58.46:387][185]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-09.58.46:388][185]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacterF27308CA4DD8DCB61367BAB47FDEF180.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-09.58.46:405][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.41 sec)
+[2024.10.11-09.58.46:408][185]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-09.58.46:408][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-09.59.39:962][977]BlueprintLog: New page: Compile Interactable
+[2024.10.11-09.59.40:008][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.10.11-09.59.40:361][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-09.59.40:476][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-09.59.40:487][986]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-09.59.40:488][986]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable41D49B2A45FCA486E0AAF7B3C71DA343.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-09.59.40:511][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 1.56 sec)
+[2024.10.11-09.59.40:515][986]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-09.59.40:515][986]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-09.59.51:354][414]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Island/Interactable.Interactable_C
+[2024.10.11-09.59.51:354][414]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Island/Interactable.Interactable_C
+[2024.10.11-09.59.51:357][414]LogActorFactory: Actor Factory spawned Blueprint /Game/Island/Interactable.Interactable as actor: Interactable_C /Game/Maps/Island.Island:PersistentLevel.Interactable_C_0
+[2024.10.11-09.59.51:360][414]LogActorFactory: Actor Factory spawned Blueprint /Game/Island/Interactable.Interactable as actor: Interactable_C /Game/Maps/Island.Island:PersistentLevel.Interactable_C_0
+[2024.10.11-09.59.51:731][422]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Island/Interactable.Interactable_C
+[2024.10.11-09.59.51:731][422]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Island/Interactable.Interactable_C
+[2024.10.11-09.59.51:744][422]LogActorFactory: Actor Factory spawned Blueprint /Game/Island/Interactable.Interactable as actor: Interactable_C /Game/Maps/Island.Island:PersistentLevel.Interactable_C_1
+[2024.10.11-09.59.51:747][422]LogActorFactory: Actor Factory spawned Blueprint /Game/Island/Interactable.Interactable as actor: Interactable_C /Game/Maps/Island.Island:PersistentLevel.Interactable_C_1
+[2024.10.11-09.59.56:147][609]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-09.59.56:164][609]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.11-09.59.56:168][609]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonPlayerController before play...
+[2024.10.11-09.59.56:209][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.10.11-09.59.56:218][609]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2024.10.11-09.59.56:218][609]PIE: New page: PIE session: Island (Oct 11, 2024, 1:59:56 AM)
+[2024.10.11-09.59.56:218][609]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2024.10.11-09.59.56:221][609]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.10.11-09.59.56:234][610]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-09.59.56:236][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002523s)
+[2024.10.11-09.59.56:236][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002596s)
+[2024.10.11-09.59.56:255][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.10.11-09.59.56:257][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-09.59.56:257][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-09.59.56:258][610]LogAIModule: Creating AISystem for world Island
+[2024.10.11-09.59.56:258][610]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2024.10.11-09.59.56:258][610]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-09.59.56:258][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-09.59.56:258][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-09.59.56:259][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-09.59.56:259][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-09.59.56:259][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-09.59.56:262][610]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-09.59.56:411][610]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-09.59.56:412][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-09.59.56:412][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-09.59.56:412][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-09.59.56:415][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.10.11-09.59.56:415][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.10.11-09.59.56:418][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.10.11-09.59.56:418][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.10.11-09.59.56:418][610]LogInit: FAudioDevice initialized with ID 3.
+[2024.10.11-09.59.56:418][610]LogAudio: Display: Audio Device (ID: 3) registered with world 'Island'.
+[2024.10.11-09.59.56:418][610]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.10.11-09.59.56:425][610]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-09.59.56:428][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-05.59.56
+[2024.10.11-09.59.56:429][610]LogWorld: Bringing up level for play took: 0.002520
+[2024.10.11-09.59.56:444][610]PIE: Server logged in
+[2024.10.11-09.59.56:447][610]PIE: Play in editor total start time 0.29 seconds.
+[2024.10.11-10.00.07:981][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.00.07:981][281]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.00.07:982][281]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.00.07:982][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.00.07:993][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.00.08:001][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.00.08:027][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.00.08:028][281]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.10.11-10.00.08:028][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.10.11-10.00.08:032][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.10.11-10.00.08:068][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2024.10.11-10.00.08:112][282]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.10.11-10.02.12:222][380]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.02.12:329][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.10.11-10.02.14:637][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.02.14:778][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-10.02.14:792][456]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-10.02.14:793][456]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable43394EA04019B87177F1F6A26B107AA3.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-10.02.14:813][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 1.73 sec)
+[2024.10.11-10.02.14:815][456]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-10.02.14:815][456]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-10.02.16:219][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.02.16:502][509]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.02.16:503][509]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter8FD4F1EF42E3C29CA9D669A0A6FE714D.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.02.16:525][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 304 ms (total: 2.04 sec)
+[2024.10.11-10.02.16:527][509]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.02.16:528][509]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.02.18:278][576]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.02.18:291][576]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.11-10.02.18:296][576]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
+[2024.10.11-10.02.18:305][576]LogPlayLevel: [PlayLevel]   Compiling BP_FirstPersonCharacter as a dependent...
+[2024.10.11-10.02.18:484][576]LogPlayLevel: [PlayLevel] Compiling Interactable before play...
+[2024.10.11-10.02.18:552][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.10.11-10.02.18:555][576]LogPlayLevel: PlayLevel: Blueprint regeneration took 265 ms (3 blueprints)
+[2024.10.11-10.02.18:556][576]PIE: New page: PIE session: Island (Oct 11, 2024, 2:02:18 AM)
+[2024.10.11-10.02.18:556][576]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2024.10.11-10.02.18:559][576]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.10.11-10.02.18:576][577]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.02.18:578][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002763s)
+[2024.10.11-10.02.18:579][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002842s)
+[2024.10.11-10.02.18:599][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.10.11-10.02.18:602][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.02.18:602][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.02.18:602][577]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.02.18:602][577]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2024.10.11-10.02.18:602][577]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.02.18:602][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.02.18:602][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.02.18:603][577]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.02.18:603][577]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.02.18:603][577]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.02.18:606][577]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.02.18:771][577]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.02.18:772][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.02.18:772][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.02.18:772][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.02.18:775][577]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.10.11-10.02.18:775][577]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.10.11-10.02.18:779][577]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.10.11-10.02.18:779][577]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.10.11-10.02.18:779][577]LogInit: FAudioDevice initialized with ID 4.
+[2024.10.11-10.02.18:779][577]LogAudio: Display: Audio Device (ID: 4) registered with world 'Island'.
+[2024.10.11-10.02.18:779][577]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.11-10.02.18:784][577]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.02.18:786][577]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.02.18
+[2024.10.11-10.02.18:786][577]LogWorld: Bringing up level for play took: 0.001476
+[2024.10.11-10.02.18:793][577]PIE: Server logged in
+[2024.10.11-10.02.18:795][577]PIE: Play in editor total start time 0.507 seconds.
+[2024.10.11-10.02.31:620][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.02.31:620][301]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.02.31:620][301]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.02.31:621][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.02.31:630][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.02.31:639][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.02.31:659][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.02.31:659][301]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.11-10.02.31:659][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.11-10.02.31:661][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.11-10.02.31:697][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.10.11-10.02.31:753][302]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.10.11-10.02.49:768][970]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.02.49:863][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.10.11-10.02.50:119][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.02.50:265][971]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.02.50:266][971]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter6C8D3CCF48C4095362DF71A552C0A7DF.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.02.50:285][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 2.20 sec)
+[2024.10.11-10.02.50:288][971]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.02.50:288][971]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.02.50:505][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.02.50:602][981]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.02.50:603][981]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter72828781441E82FF731036B23B38A414.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.02.50:622][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 2.32 sec)
+[2024.10.11-10.02.50:625][981]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.02.50:625][981]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.02.53:726][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.02.53:734][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.02.53:735][ 94]PIE: New page: PIE session: Island (Oct 11, 2024, 2:02:53 AM)
+[2024.10.11-10.02.53:735][ 94]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2024.10.11-10.02.53:738][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.10.11-10.02.53:748][ 95]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.02.53:750][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2024.10.11-10.02.53:750][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002013s)
+[2024.10.11-10.02.53:770][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.10.11-10.02.53:775][ 95]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.02.53:775][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.02.53:776][ 95]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.02.53:776][ 95]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2024.10.11-10.02.53:776][ 95]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.02.53:776][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.02.53:776][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.02.53:777][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.02.53:777][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.02.53:777][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.02.53:779][ 95]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.02.53:970][ 95]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.02.53:971][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.02.53:971][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.02.53:971][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.02.53:973][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.10.11-10.02.53:973][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.10.11-10.02.53:976][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.10.11-10.02.53:976][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.10.11-10.02.53:976][ 95]LogInit: FAudioDevice initialized with ID 5.
+[2024.10.11-10.02.53:976][ 95]LogAudio: Display: Audio Device (ID: 5) registered with world 'Island'.
+[2024.10.11-10.02.53:976][ 95]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.11-10.02.53:979][ 95]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.02.53:981][ 95]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.02.53
+[2024.10.11-10.02.53:981][ 95]LogWorld: Bringing up level for play took: 0.001138
+[2024.10.11-10.02.53:986][ 95]PIE: Server logged in
+[2024.10.11-10.02.53:988][ 95]PIE: Play in editor total start time 0.254 seconds.
+[2024.10.11-10.02.56:893][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.02.56:893][250]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.02.56:893][250]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.02.56:893][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.02.56:902][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.02.56:913][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.02.56:925][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.02.56:925][250]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.11-10.02.56:925][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.11-10.02.56:927][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.11-10.02.56:955][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.02.56:961][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2024.10.11-10.02.57:006][251]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.10.11-10.03.30:072][350]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.03.30:109][350]LogBlueprint: Warning: [AssetLog] C:\Users\ansha\OneDrive\Documents\Unreal Projects\VoidGame\VoidGame\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Get Display Name  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.10.11-10.03.30:123][350]LogBlueprint: Error: [AssetLog] C:\Users\ansha\OneDrive\Documents\Unreal Projects\VoidGame\VoidGame\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The current value of the ' In Text ' pin is invalid: 'In Text' in action 'To String (Text)' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.10.11-10.03.30:180][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.10.11-10.03.30:593][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.03.30:745][357]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.03.30:746][357]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter6A8CB9A44480C1132F881780319C64EC.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.03.30:761][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.49 sec)
+[2024.10.11-10.03.30:763][357]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.03.30:763][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.03.48:234][957]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.03.48:321][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.10.11-10.03.48:835][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.03.49:024][969]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.03.49:025][969]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter98206B3B46FD1A988C98DF815700E0F8.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.03.49:046][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 2.70 sec)
+[2024.10.11-10.03.49:048][969]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.03.49:048][969]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.03.53:185][132]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.03.53:196][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.03.53:196][132]PIE: New page: PIE session: Island (Oct 11, 2024, 2:03:53 AM)
+[2024.10.11-10.03.53:196][132]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.10.11-10.03.53:199][132]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.10.11-10.03.53:213][133]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.03.53:216][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002710s)
+[2024.10.11-10.03.53:216][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002783s)
+[2024.10.11-10.03.53:239][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.10.11-10.03.53:242][133]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.03.53:242][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.03.53:243][133]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.03.53:243][133]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2024.10.11-10.03.53:243][133]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.03.53:243][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.03.53:243][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.03.53:244][133]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.03.53:244][133]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.03.53:244][133]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.03.53:247][133]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.03.53:420][133]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.03.53:420][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.03.53:420][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.03.53:420][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.03.53:423][133]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.10.11-10.03.53:423][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.10.11-10.03.53:426][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.10.11-10.03.53:426][133]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.10.11-10.03.53:426][133]LogInit: FAudioDevice initialized with ID 6.
+[2024.10.11-10.03.53:426][133]LogAudio: Display: Audio Device (ID: 6) registered with world 'Island'.
+[2024.10.11-10.03.53:427][133]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.11-10.03.53:441][133]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.03.53:444][133]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.03.53
+[2024.10.11-10.03.53:445][133]LogWorld: Bringing up level for play took: 0.002904
+[2024.10.11-10.03.53:457][133]PIE: Server logged in
+[2024.10.11-10.03.53:460][133]PIE: Play in editor total start time 0.265 seconds.
+[2024.10.11-10.03.54:519][178]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:529][179]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:545][180]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:846][198]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:862][199]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:879][200]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:896][201]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:913][202]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:928][203]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:946][204]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:963][205]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:979][206]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.54:996][207]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:013][208]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:028][209]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:047][210]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:063][211]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:079][212]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:096][213]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:112][214]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:128][215]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:146][216]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:162][217]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:179][218]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:198][219]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:212][220]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:229][221]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:246][222]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:263][223]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:279][224]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:296][225]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:312][226]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:328][227]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:345][228]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:362][229]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:379][230]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:395][231]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:412][232]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:431][233]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:445][234]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:462][235]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:479][236]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:496][237]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:513][238]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:528][239]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:546][240]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:562][241]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:579][242]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:596][243]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:611][244]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:628][245]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:646][246]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:662][247]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:680][248]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:699][249]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:719][250]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:737][251]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:758][252]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.55:777][253]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:229][336]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:245][337]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:263][338]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:278][339]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:297][340]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:312][341]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:329][342]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:345][343]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:361][344]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:378][345]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:395][346]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:414][347]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:428][348]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:445][349]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:464][350]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:478][351]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:495][352]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:511][353]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:529][354]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:544][355]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:561][356]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:578][357]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:595][358]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:611][359]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:628][360]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:644][361]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:664][362]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:678][363]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:695][364]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:712][365]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.57:729][366]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:285][399]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:303][400]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:324][401]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:341][402]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:359][403]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:376][404]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:393][405]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:412][406]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:431][407]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:452][408]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:470][409]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:489][410]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:511][411]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:530][412]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:550][413]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:570][414]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:591][415]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:608][416]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:628][417]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:645][418]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:661][419]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:679][420]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:694][421]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:711][422]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:730][423]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:748][424]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:761][425]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:778][426]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:795][427]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:811][428]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:827][429]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:844][430]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:861][431]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:878][432]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:893][433]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:912][434]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:928][435]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:944][436]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:961][437]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:981][438]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.58:994][439]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:011][440]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:027][441]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:044][442]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:061][443]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:078][444]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:096][445]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:111][446]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:128][447]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:144][448]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:161][449]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:178][450]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:195][451]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:212][452]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:227][453]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:245][454]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:261][455]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:279][456]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:294][457]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:311][458]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:327][459]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:344][460]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:361][461]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:378][462]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:396][463]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:411][464]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:428][465]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:444][466]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:461][467]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:477][468]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:496][469]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:511][470]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:528][471]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:545][472]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:562][473]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:578][474]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:596][475]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:611][476]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:629][477]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:645][478]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:662][479]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:678][480]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:695][481]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:711][482]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:728][483]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:745][484]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:761][485]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:778][486]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:795][487]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:944][496]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:961][497]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:978][498]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.03.59:995][499]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:012][500]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:095][505]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:111][506]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:130][507]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:144][508]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:161][509]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:177][510]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:195][511]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:212][512]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:227][513]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:245][514]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:261][515]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:281][516]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:295][517]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.00:311][518]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.04.01:379][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.04.01:379][579]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.04.01:380][579]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.04.01:380][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.04.01:388][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.04.01:398][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.04.01:434][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.04.01:435][579]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.11-10.04.01:435][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.11-10.04.01:440][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.11-10.04.01:465][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.04.01:470][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2024.10.11-10.04.01:517][580]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.10.11-10.04.56:044][104]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.04.56:136][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.10.11-10.04.57:243][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.04.57:399][139]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.04.57:400][139]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacterFCC53D6F4344CB40AB5E36B6F3C9784D.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.04.57:416][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 2.87 sec)
+[2024.10.11-10.04.57:419][139]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.04.57:419][139]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.04.59:349][221]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.04.59:364][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.04.59:364][221]PIE: New page: PIE session: Island (Oct 11, 2024, 2:04:59 AM)
+[2024.10.11-10.04.59:364][221]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.10.11-10.04.59:367][221]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.10.11-10.04.59:380][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.04.59:382][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002219s)
+[2024.10.11-10.04.59:382][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002279s)
+[2024.10.11-10.04.59:415][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.10.11-10.04.59:420][222]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.04.59:420][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.04.59:420][222]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.04.59:421][222]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2024.10.11-10.04.59:421][222]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.04.59:421][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.04.59:421][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.04.59:421][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.04.59:421][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.04.59:421][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.04.59:424][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.04.59:572][222]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.04.59:573][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.04.59:573][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.04.59:573][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.04.59:575][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.10.11-10.04.59:575][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.10.11-10.04.59:580][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.10.11-10.04.59:580][222]LogInit: FAudioDevice initialized with ID 7.
+[2024.10.11-10.04.59:580][222]LogAudio: Display: Audio Device (ID: 7) registered with world 'Island'.
+[2024.10.11-10.04.59:580][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.10.11-10.04.59:580][222]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.11-10.04.59:586][222]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.04.59:588][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.04.59
+[2024.10.11-10.04.59:588][222]LogWorld: Bringing up level for play took: 0.001708
+[2024.10.11-10.04.59:595][222]PIE: Server logged in
+[2024.10.11-10.04.59:596][222]PIE: Play in editor total start time 0.233 seconds.
+[2024.10.11-10.05.02:112][355]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:129][356]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:145][357]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:162][358]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:178][359]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:196][360]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:215][361]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:229][362]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:246][363]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:263][364]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:280][365]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:297][366]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:313][367]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:330][368]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:347][369]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:363][370]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:380][371]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:396][372]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:414][373]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:430][374]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:447][375]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:464][376]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:480][377]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:497][378]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:514][379]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:530][380]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:547][381]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:563][382]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:580][383]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:599][384]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:617][385]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:639][386]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:658][387]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:677][388]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:696][389]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:717][390]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:736][391]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:756][392]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:775][393]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:795][394]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:813][395]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:833][396]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:852][397]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:870][398]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:890][399]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:908][400]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:927][401]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:946][402]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:965][403]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.02:984][404]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:006][405]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:025][406]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:044][407]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:065][408]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:083][409]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:102][410]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:120][411]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:136][412]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:154][413]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:171][414]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:187][415]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:204][416]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:222][417]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:238][418]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.03:254][419]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interactable
+[2024.10.11-10.05.04:152][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.05.04:152][470]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.05.04:152][470]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.05.04:152][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.05.04:160][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.05.04:168][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.05.04:192][470]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.05.04:192][470]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.11-10.05.04:192][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.11-10.05.04:194][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.11-10.05.04:223][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.05.04:228][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.10.11-10.05.04:280][471]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.10.11-10.07.20:367][434]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.07.20:444][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.10.11-10.07.38:070][213]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.07.38:158][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.10.11-10.07.38:618][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.07.38:754][221]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.07.38:755][221]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter819D9C5D42CDD62914F48488AAB5D0C3.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.07.38:770][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 3.02 sec)
+[2024.10.11-10.07.38:773][221]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.07.38:773][221]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.07.53:269][798]BlueprintLog: New page: Compile Interactable
+[2024.10.11-10.07.53:322][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.10.11-10.07.53:799][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.07.53:916][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-10.07.53:927][812]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-10.07.53:929][812]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable6E21752246AA232877DCDC916D658B0A.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-10.07.53:987][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 3.21 sec)
+[2024.10.11-10.07.53:999][812]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-10.07.53:999][812]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-10.08.02:516][163]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.08.02:620][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.10.11-10.08.02:942][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.08.03:053][164]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.08.03:054][164]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter69C4469C48B272FDEED936A67D43F396.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.08.03:082][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 3.35 sec)
+[2024.10.11-10.08.03:089][164]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.08.03:089][164]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.08.04:954][238]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.08.04:964][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.08.04:964][238]PIE: New page: PIE session: Island (Oct 11, 2024, 2:08:04 AM)
+[2024.10.11-10.08.04:964][238]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.10.11-10.08.04:968][238]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.10.11-10.08.04:980][239]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.08.04:983][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002177s)
+[2024.10.11-10.08.04:983][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002241s)
+[2024.10.11-10.08.05:003][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.10.11-10.08.05:010][239]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.08.05:010][239]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.08.05:010][239]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.08.05:011][239]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2024.10.11-10.08.05:011][239]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.08.05:011][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.08.05:011][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.08.05:011][239]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.08.05:011][239]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.08.05:011][239]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.08.05:015][239]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.08.05:151][239]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.08.05:152][239]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.08.05:153][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.08.05:153][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.08.05:156][239]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.10.11-10.08.05:156][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.10.11-10.08.05:160][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.10.11-10.08.05:160][239]LogInit: FAudioDevice initialized with ID 8.
+[2024.10.11-10.08.05:160][239]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.10.11-10.08.05:160][239]LogAudio: Display: Audio Device (ID: 8) registered with world 'Island'.
+[2024.10.11-10.08.05:160][239]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.11-10.08.05:165][239]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.08.05:167][239]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.08.05
+[2024.10.11-10.08.05:167][239]LogWorld: Bringing up level for play took: 0.001618
+[2024.10.11-10.08.05:174][239]PIE: Server logged in
+[2024.10.11-10.08.05:176][239]PIE: Play in editor total start time 0.213 seconds.
+[2024.10.11-10.08.06:107][279]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.06:791][314]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.06:971][324]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.07:355][347]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.07:688][367]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.08:122][393]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.08:405][410]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.08:767][430]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.08.09:046][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.08.09:046][443]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.08.09:046][443]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.08.09:047][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.08.09:052][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.08.09:057][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.08.09:075][443]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.08.09:076][443]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.11-10.08.09:076][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.11-10.08.09:079][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.11-10.08.09:103][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.08.09:107][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.10.11-10.08.09:154][444]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.10.11-10.08.28:927][147]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.11-10.08.29:017][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.10.11-10.08.29:354][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.08.29:572][151]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.11-10.08.29:573][151]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/BP_FirstPersonCharacter5F98785A477EC70DB1877ABD618576C1.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.11-10.08.29:590][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 3.59 sec)
+[2024.10.11-10.08.29:594][151]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.11-10.08.29:594][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.11-10.09.36:543][373]BlueprintLog: New page: Compile Interactable
+[2024.10.11-10.09.36:592][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.10.11-10.09.37:829][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.09.38:068][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-10.09.38:077][413]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-10.09.38:078][413]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/Interactable95AA087D46C6AD82C29CAA96A69CEF21.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-10.09.38:096][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 3.85 sec)
+[2024.10.11-10.09.38:100][413]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-10.09.38:100][413]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-10.09.40:038][488]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.09.40:054][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.09.40:055][488]PIE: New page: PIE session: Island (Oct 11, 2024, 2:09:40 AM)
+[2024.10.11-10.09.40:055][488]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.10.11-10.09.40:058][488]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.10.11-10.09.40:073][489]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.09.40:076][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002626s)
+[2024.10.11-10.09.40:076][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002700s)
+[2024.10.11-10.09.40:099][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.10.11-10.09.40:107][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.09.40:107][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.09.40:108][489]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.09.40:108][489]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2024.10.11-10.09.40:108][489]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.10.11-10.09.40:108][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.09.40:108][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.09.40:108][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.09.40:109][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.09.40:109][489]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.09.40:109][489]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.09.40:109][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.09.40:109][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.09.40:109][489]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.09.40:109][489]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.09.40:109][489]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.09.40:112][489]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.09.40:260][489]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.09.40:260][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.09.40:260][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.09.40:260][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.09.40:262][489]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.10.11-10.09.40:262][489]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.10.11-10.09.40:265][489]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.10.11-10.09.40:265][489]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.10.11-10.09.40:265][489]LogInit: FAudioDevice initialized with ID 9.
+[2024.10.11-10.09.40:265][489]LogAudio: Display: Audio Device (ID: 9) registered with world 'Island'.
+[2024.10.11-10.09.40:265][489]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.11-10.09.40:269][489]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.09.40:270][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.09.40
+[2024.10.11-10.09.40:270][489]LogWorld: Bringing up level for play took: 0.000845
+[2024.10.11-10.09.40:273][489]PIE: Server logged in
+[2024.10.11-10.09.40:275][489]PIE: Play in editor total start time 0.224 seconds.
+[2024.10.11-10.09.41:433][541]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.43:738][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.09.43:738][672]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.09.43:738][672]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.09.43:739][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.09.43:767][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.09.43:772][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.09.43:783][672]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.09.43:785][672]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.11-10.09.43:785][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.11-10.09.43:787][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.11-10.09.43:814][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.09.43:820][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.10.11-10.09.43:868][673]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.10.11-10.09.53:244][  7]BlueprintLog: New page: Compile Interactable
+[2024.10.11-10.09.53:292][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.10.11-10.09.54:385][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.11-10.09.54:507][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Island/Interactable" FILE="../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset" SILENT=true
+[2024.10.11-10.09.54:515][ 42]LogSavePackage: Moving output files for package: /Game/Island/Interactable
+[2024.10.11-10.09.54:516][ 42]LogSavePackage: Moving '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Saved/InteractableF0EAD7F647B825928E41A3BC3F6EA732.tmp' to '../../../../../../Users/ansha/OneDrive/Documents/Unreal Projects/VoidGame/VoidGame/Content/Island/Interactable.uasset'
+[2024.10.11-10.09.54:547][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 4.02 sec)
+[2024.10.11-10.09.54:554][ 42]AssetCheck: New page: Asset Save: Interactable
+[2024.10.11-10.09.54:554][ 42]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Island/Interactable.Interactable
+[2024.10.11-10.09.56:489][118]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.11-10.09.56:501][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.11-10.09.56:501][118]PIE: New page: PIE session: Island (Oct 11, 2024, 2:09:56 AM)
+[2024.10.11-10.09.56:501][118]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.10.11-10.09.56:504][118]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.10.11-10.09.56:516][119]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.09.56:520][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002450s)
+[2024.10.11-10.09.56:520][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Island.Island to /Game/Maps/UEDPIE_0_Island.Island (0.002523s)
+[2024.10.11-10.09.56:536][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.10.11-10.09.56:541][119]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.11-10.09.56:541][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.11-10.09.56:543][119]LogAIModule: Creating AISystem for world Island
+[2024.10.11-10.09.56:543][119]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2024.10.11-10.09.56:543][119]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.10.11-10.09.56:543][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.11-10.09.56:543][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.11-10.09.56:543][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.11-10.09.56:544][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.11-10.09.56:544][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.11-10.09.56:544][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.11-10.09.56:544][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.11-10.09.56:544][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.11-10.09.56:544][119]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.11-10.09.56:544][119]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.11-10.09.56:544][119]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.11-10.09.56:547][119]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.11-10.09.56:710][119]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ansh Bose QC35 II)
+[2024.10.11-10.09.56:711][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.11-10.09.56:711][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.11-10.09.56:711][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.11-10.09.56:713][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.10.11-10.09.56:713][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.10.11-10.09.56:718][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.10.11-10.09.56:718][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.10.11-10.09.56:718][119]LogInit: FAudioDevice initialized with ID 10.
+[2024.10.11-10.09.56:718][119]LogAudio: Display: Audio Device (ID: 10) registered with world 'Island'.
+[2024.10.11-10.09.56:718][119]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.11-10.09.56:723][119]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.11-10.09.56:726][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Island.Island up for play (max tick rate 60) at 2024.10.11-06.09.56
+[2024.10.11-10.09.56:727][119]LogWorld: Bringing up level for play took: 0.002460
+[2024.10.11-10.09.56:732][119]PIE: Server logged in
+[2024.10.11-10.09.56:735][119]PIE: Play in editor total start time 0.237 seconds.
+[2024.10.11-10.09.57:635][156]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.57:955][172]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.58:298][191]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.58:597][209]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.58:880][226]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.59:114][240]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.59:364][255]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.59:647][272]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.09.59:914][287]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.10.00:222][303]LogBlueprintUserMessages: [Interactable_C_1] CLICKED?
+[2024.10.11-10.10.02:098][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.10.02:098][409]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Island
+[2024.10.11-10.10.02:098][409]LogWorld: UWorld::CleanupWorld for Island, bSessionEnded=true, bCleanupResources=true
+[2024.10.11-10.10.02:100][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.10.02:129][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.11-10.10.02:134][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.11-10.10.02:150][409]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.11-10.10.02:150][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.11-10.10.02:150][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.11-10.10.02:152][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.11-10.10.02:179][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.11-10.10.02:185][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.10.11-10.10.02:250][410]LogPlayLevel: Display: Destroying online subsystem :Context_20
