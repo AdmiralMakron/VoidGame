@@ -6,6 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PCG/Content/SampleContent/SimpleForest/PCGGraphs/SimpleForest.uasset",
+				"U:/My Documents/Unreal Projects/VoidGame/VoidGame/Content/World/Maps/ParentIsland.umap",
+				"U:/My Documents/Unreal Projects/VoidGame/VoidGame/Content/World/ResourceNodes.uasset",
+				"U:/My Documents/Unreal Projects/VoidGame/VoidGame/Content/World/Resource_Nodes.uasset",
+				"U:/My Documents/Unreal Projects/VoidGame/VoidGame/Content/World/Maps/Parent_Island.umap",
+				"U:/My Documents/Unreal Projects/VoidGame/VoidGame/Content/World/Blueprints/Resource_Node.uasset",
 				"C:/GitHub/VoidGame/VoidGame/Content/Inventory/WBP_Grid.uasset",
 				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/dagger.uasset",
 				"C:/GitHub/VoidGame/VoidGame/Content/Items/Icons/great_hammer.uasset",
