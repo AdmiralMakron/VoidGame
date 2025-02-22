@@ -24,6 +24,8 @@ AC_ResourceNode::AC_ResourceNode()
 
     // Default ResourceNodeType (initialized when placed in the editor)
     ResourceNodeType = EResourceNodes::None;
+
+    
 }
 
 void AC_ResourceNode::OnConstruction(const FTransform& Transform)
@@ -40,6 +42,7 @@ void AC_ResourceNode::OnConstruction(const FTransform& Transform)
 void AC_ResourceNode::UpdateMesh() const
 {
     UStaticMesh* NewMesh;
+    int32 MeshType = 0;
     
     // Check for the 'None' case and ensure mesh is cleared
     if (ResourceNodeType == EResourceNodes::None)
@@ -54,25 +57,57 @@ void AC_ResourceNode::UpdateMesh() const
         // Select the mesh based on ResourceNodeType
         switch (ResourceNodeType)
         {
-        case EResourceNodes::Tree:
-            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/SM_Bad_Tree.SM_Bad_Tree"));
+        case EResourceNodes::Tree: //MeshType 1
+            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/PlaceholderMeshes_New/Tree1_PlaceholderExport.Tree1_PlaceholderExport"));
+            MeshType = 1;
             break;
-        case EResourceNodes::Rock:
-            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/SM_Bad_Rock.SM_Bad_Rock"));
+        case EResourceNodes::Rock: //MeshType 2
+            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/PlaceholderMeshes_New/HarvestableRock1_PlaceholderExport.HarvestableRock1_PlaceholderExport"));
+            MeshType = 2;
             break;
-        case EResourceNodes::Chest:
+        case EResourceNodes::Chest: //MeshType 3
             NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/Weapon_Pack/Mesh/Props/Interior/SM_Barrel.SM_Barrel"));
+            MeshType = 3;
             break;
-        case EResourceNodes::Ore:
-            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/SM_Bad_Ore.SM_Bad_Ore"));
+        case EResourceNodes::Ore: //MeshType 4
+            NewMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/World/Meshes/PlaceholderMeshes_New/OreRock_PlaceholderExport.OreRock_PlaceholderExport"));
+            MeshType = 4;
             break;
         default:
-            NewMesh = nullptr;
+            NewMesh = nullptr; //MeshType 0
+            MeshType = 0;
             break;
         }
     }
 
         MeshComponent->SetStaticMesh(NewMesh);
+        MeshComponent->SetWorldScale3D(FVector(0.2, 0.2, 0.2));
+
+    //Sets static mesh scale appropriately. In the future, make sure exported (.fbx files) are scaled correctly.
+
+    if (MeshType == 1)
+    {
+        MeshComponent->SetWorldScale3D(FVector(0.1, 0.1, 0.1));
+    }
+    else if (MeshType == 2)
+    {
+        MeshComponent->SetWorldScale3D(FVector(0.4, 0.4, 0.4));
+    }
+        
+    else if (MeshType == 3)
+    {
+        MeshComponent->SetWorldScale3D(FVector(1, 1, 1));
+    }
+
+    else if (MeshType == 4)
+    {
+        MeshComponent->SetWorldScale3D(FVector(0.4, 0.4, 0.4));
+    }
+        
+    else
+    {
+        MeshComponent->SetWorldScale3D(FVector(1, 1, 1));
+    }
     
 }
 void AC_ResourceNode::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
