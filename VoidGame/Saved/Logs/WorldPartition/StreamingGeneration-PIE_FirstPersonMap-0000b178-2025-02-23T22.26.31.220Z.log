@@ -1,0 +1,222 @@
+[+] Containers:
+ |- [+] Container: /Game/FirstPerson/Maps/FirstPersonMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:0C093B4B48AEB0D2966FDD835A97335F BaseClass:/Game/Interactible_Stations/BP_Chest.BP_Chest_C NativeClass:/Script/Engine.Actor Name:BP_Chest_C_UAID_047C1656A8D93F3602_1398823607 Label:BP_Chest2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1406.000 Y=1806.000 Z=-120.000), Max=(X=1614.000 Y=2014.000 Z=104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:0EDB289B45CB7E0977A6DBA74201EE76 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_10 Label:SM_Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2900.000 Y=100.000 Z=-120.000), Max=(X=3000.000 Y=3400.000 Z=280.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- Guid:1CDD5EAD4483384C36E2E3ADD0720773 BaseClass:/Game/Ship_Navigation/BPShipTable.BPShipTable_C NativeClass:/Script/Engine.Actor Name:BPShipTable_C_UAID_047C1647CE12344F02_1946243071 Label:BPShipTable SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=220.000 Y=1950.000 Z=-170.000), Max=(X=320.000 Y=2050.000 Z=-70.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2005065E4FA2D5D03B27069250558E05 BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D9513802_2119973894 Label:BP_BaseInteraction2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1224.653 Y=1346.190 Z=-120.069), Max=(X=1275.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2154ACE3425B900684EDA7BE0EC595DC BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1674851272 Label:BP_Hammer2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2188.000 Y=2288.000 Z=-152.000), Max=(X=2252.000 Y=2352.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2C6C878E44933101E4C6D8B472C4B2B6 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2057891127 Label:BP_Hammer4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2038.000 Y=2388.000 Z=-152.000), Max=(X=2102.000 Y=2452.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5328DC0F4D8F5F3F50E02CAC85B41C6B BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9472702_1792267176 Label:BP_Dagger3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1878.000 Y=2328.000 Z=-122.000), Max=(X=1942.000 Y=2392.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:56BE188240661F22EB6C6E907769175B BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2066283130 Label:BP_Hammer7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2088.000 Y=2078.000 Z=-152.000), Max=(X=2152.000 Y=2142.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5D06892A4DFEE5FCFA0089A3D5CA5410 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2070667131 Label:BP_Hammer8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2078.000 Y=2308.000 Z=-152.000), Max=(X=2142.000 Y=2372.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5FE7584649BB6F09265329A6C57CFD0D BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_0 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=820.000), Max=(X=0.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:61391D344900612A77DFC3BA3E354907 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_0 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:6DE92DFE4FC3A9C123E8D98CD4F497B6 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1522372271 Label:BP_Hammer SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2268.000 Y=2188.000 Z=-152.000), Max=(X=2332.000 Y=2252.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6FEFB3BD4EB37B849EF0D4AC80F83855 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:756D956C4F38D034022E769224084924 BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D9513802_2122208895 Label:BP_BaseInteraction3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1644.653 Y=1346.190 Z=-120.069), Max=(X=1695.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:78CAF7514C7533F30BD2F19A017AAB65 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_0 Label:SM_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-170.000), Max=(X=3000.000 Y=3500.000 Z=-120.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- Guid:90D62B2340553FFD9B0369AEC0F43D3C BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1677691273 Label:BP_Hammer3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2278.000 Y=2078.000 Z=-152.000), Max=(X=2342.000 Y=2142.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9372A4464CF489BE09151BBFCF598037 BaseClass:/Game/Islands/BP_IslandSpawner.BP_IslandSpawner_C NativeClass:/Script/Engine.Actor Name:BP_IslandSpawner_C_UAID_047C1656A8D9523802_1095179073 Label:BP_IslandSpawner SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=740.000 Y=1260.000 Z=50.000), Max=(X=740.000 Y=1260.000 Z=50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:937D993C42EF18CF3C3F808549C5DE80 BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9FF2402_1989177392 Label:BP_Dagger SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1948.000 Y=2328.000 Z=-122.000), Max=(X=2012.000 Y=2392.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A354B1B24E617A525DC6B48CCDE2417E BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_0 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50.000 Y=-20.000 Z=580.013), Max=(X=30.000 Y=60.000 Z=764.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A63698804199B1BB79824893114CA6FC BaseClass:/Game/Islands/BP_BlackHole.BP_BlackHole_C NativeClass:/Script/Engine.Actor Name:BP_BlackHole_C_UAID_047C1656A8D94E3802_1705084360 Label:BP_BlackHole SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-680.000 Y=-680.000 Z=-680.000), Max=(X=680.000 Y=680.000 Z=680.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:AB320A804EC1CCF64F63BE86E0580A89 BaseClass:/Game/Ship_Navigation/Ship.Ship_C NativeClass:/Script/Engine.Actor Name:Ship_C_UAID_047C1647CE124C4E02_2058808239 Label:Ship SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=40.000 Y=1230.000 Z=10.000), Max=(X=140.000 Y=1330.000 Z=110.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:B1327015459B05814AAB26A56732D3FE BaseClass:/Game/Interactible_Stations/BP_OxygenRefiller.BP_OxygenRefiller_C NativeClass:/Script/Engine.Actor Name:BP_OxygenRefiller_C_UAID_047C1656A8D9974802_1855136103 Label:BP_OxygenRefiller SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2410.000 Y=1460.000 Z=-120.000), Max=(X=2510.000 Y=1560.000 Z=-20.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C0C56B9644AE3D40CAFF6A878DB29844 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5EFB00_2001720423 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:C22CE07C4B87D685137FDBBC10FC92C6 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_0 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=1020.000), Max=(X=0.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:CE8D82634660FCDB3120E2B8D547C533 BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_0 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=400.000), Max=(X=200.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:CFD922A94B85DD13C87F7F8EC9E5D75C BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D94F3802_1964089541 Label:BP_BaseInteraction SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1444.653 Y=1346.190 Z=-120.069), Max=(X=1495.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DE80DD7E45E812A910DE62843C9DBC8F BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2059835128 Label:BP_Hammer5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2068.000 Y=2228.000 Z=-152.000), Max=(X=2132.000 Y=2292.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DE9501304174579DED25AE9AC4B0CF9C BaseClass:/Game/Interactible_Stations/BP_Chest.BP_Chest_C NativeClass:/Script/Engine.Actor Name:BP_Chest_C_UAID_047C1656A8D92F2D02_2137706287 Label:BP_Chest SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1026.000 Y=2136.000 Z=-120.000), Max=(X=1234.000 Y=2344.000 Z=104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E5320C1B4FD9764CE7B54D8487AEC613 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_0 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=690.000), Max=(X=0.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:E6323AFA456E995D4925AD95C9649CFB BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9472702_1786163175 Label:BP_Dagger2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1918.000 Y=2268.000 Z=-122.000), Max=(X=1982.000 Y=2332.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:EFCB583645BF862D2462EEA6C2771096 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2062273129 Label:BP_Hammer6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2098.000 Y=2148.000 Z=-152.000), Max=(X=2162.000 Y=2212.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F07F1AF64C7C7C238EE1B4BF8C122DD8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_4 Label:SM_Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=3400.000 Z=-120.000), Max=(X=3000.000 Y=3500.000 Z=280.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- Guid:F7AF50484A241753D095CA9B61521028 BaseClass:/Game/Islands/BP_Island.BP_Island_C NativeClass:/Script/Engine.Actor Name:BP_Island_C_UAID_047C1656A8D9513802_2135306896 Label:BP_Island SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=930.000 Y=1700.000 Z=-50.000), Max=(X=1030.000 Y=1800.000 Z=50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F80621C9446867154938FE81375207DA BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1048576.000 Y=-1048576.000 Z=-1048576.000), Max=(X=1048576.000 Y=1048576.000 Z=1048576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- Guid:FCAE5FEC4BE51E01CB619B9DF0C8D7EB BaseClass:/Game/Items/BP_Shield.BP_Shield_C NativeClass:/Script/Engine.Actor Name:BP_Shield_C_UAID_047C1656A8D9FF2402_1985072391 Label:BP_Shield SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1954.526 Y=2178.000 Z=-105.474), Max=(X=2025.474 Y=2242.000 Z=-34.526) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:0C093B4B48AEB0D2966FDD835A97335F BaseClass:/Game/Interactible_Stations/BP_Chest.BP_Chest_C NativeClass:/Script/Engine.Actor Name:BP_Chest_C_UAID_047C1656A8D93F3602_1398823607 Label:BP_Chest2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1406.000 Y=1806.000 Z=-120.000), Max=(X=1614.000 Y=2014.000 Z=104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:0EDB289B45CB7E0977A6DBA74201EE76 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_10 Label:SM_Cube6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2900.000 Y=100.000 Z=-120.000), Max=(X=3000.000 Y=3400.000 Z=280.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:1CDD5EAD4483384C36E2E3ADD0720773 BaseClass:/Game/Ship_Navigation/BPShipTable.BPShipTable_C NativeClass:/Script/Engine.Actor Name:BPShipTable_C_UAID_047C1647CE12344F02_1946243071 Label:BPShipTable SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=220.000 Y=1950.000 Z=-170.000), Max=(X=320.000 Y=2050.000 Z=-70.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:2005065E4FA2D5D03B27069250558E05 BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D9513802_2119973894 Label:BP_BaseInteraction2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1224.653 Y=1346.190 Z=-120.069), Max=(X=1275.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:2154ACE3425B900684EDA7BE0EC595DC BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1674851272 Label:BP_Hammer2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2188.000 Y=2288.000 Z=-152.000), Max=(X=2252.000 Y=2352.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:2C6C878E44933101E4C6D8B472C4B2B6 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2057891127 Label:BP_Hammer4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2038.000 Y=2388.000 Z=-152.000), Max=(X=2102.000 Y=2452.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:5328DC0F4D8F5F3F50E02CAC85B41C6B BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9472702_1792267176 Label:BP_Dagger3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1878.000 Y=2328.000 Z=-122.000), Max=(X=1942.000 Y=2392.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:56BE188240661F22EB6C6E907769175B BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2066283130 Label:BP_Hammer7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2088.000 Y=2078.000 Z=-152.000), Max=(X=2152.000 Y=2142.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:5D06892A4DFEE5FCFA0089A3D5CA5410 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2070667131 Label:BP_Hammer8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2078.000 Y=2308.000 Z=-152.000), Max=(X=2142.000 Y=2372.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:5FE7584649BB6F09265329A6C57CFD0D BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_0 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=820.000), Max=(X=0.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:61391D344900612A77DFC3BA3E354907 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_0 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:6DE92DFE4FC3A9C123E8D98CD4F497B6 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1522372271 Label:BP_Hammer SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2268.000 Y=2188.000 Z=-152.000), Max=(X=2332.000 Y=2252.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:6FEFB3BD4EB37B849EF0D4AC80F83855 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:756D956C4F38D034022E769224084924 BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D9513802_2122208895 Label:BP_BaseInteraction3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1644.653 Y=1346.190 Z=-120.069), Max=(X=1695.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:78CAF7514C7533F30BD2F19A017AAB65 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_0 Label:SM_Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-170.000), Max=(X=3000.000 Y=3500.000 Z=-120.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:90D62B2340553FFD9B0369AEC0F43D3C BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D90A2402_1677691273 Label:BP_Hammer3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2278.000 Y=2078.000 Z=-152.000), Max=(X=2342.000 Y=2142.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:9372A4464CF489BE09151BBFCF598037 BaseClass:/Game/Islands/BP_IslandSpawner.BP_IslandSpawner_C NativeClass:/Script/Engine.Actor Name:BP_IslandSpawner_C_UAID_047C1656A8D9523802_1095179073 Label:BP_IslandSpawner SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=740.000 Y=1260.000 Z=50.000), Max=(X=740.000 Y=1260.000 Z=50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:937D993C42EF18CF3C3F808549C5DE80 BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9FF2402_1989177392 Label:BP_Dagger SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1948.000 Y=2328.000 Z=-122.000), Max=(X=2012.000 Y=2392.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:A354B1B24E617A525DC6B48CCDE2417E BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_0 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-50.000 Y=-20.000 Z=580.013), Max=(X=30.000 Y=60.000 Z=764.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:A63698804199B1BB79824893114CA6FC BaseClass:/Game/Islands/BP_BlackHole.BP_BlackHole_C NativeClass:/Script/Engine.Actor Name:BP_BlackHole_C_UAID_047C1656A8D94E3802_1705084360 Label:BP_BlackHole SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-680.000 Y=-680.000 Z=-680.000), Max=(X=680.000 Y=680.000 Z=680.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:AB320A804EC1CCF64F63BE86E0580A89 BaseClass:/Game/Ship_Navigation/Ship.Ship_C NativeClass:/Script/Engine.Actor Name:Ship_C_UAID_047C1647CE124C4E02_2058808239 Label:Ship SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=40.000 Y=1230.000 Z=10.000), Max=(X=140.000 Y=1330.000 Z=110.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:B1327015459B05814AAB26A56732D3FE BaseClass:/Game/Interactible_Stations/BP_OxygenRefiller.BP_OxygenRefiller_C NativeClass:/Script/Engine.Actor Name:BP_OxygenRefiller_C_UAID_047C1656A8D9974802_1855136103 Label:BP_OxygenRefiller SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2410.000 Y=1460.000 Z=-120.000), Max=(X=2510.000 Y=1560.000 Z=-20.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:C0C56B9644AE3D40CAFF6A878DB29844 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5EFB00_2001720423 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:C22CE07C4B87D685137FDBBC10FC92C6 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_0 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=1020.000), Max=(X=0.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:CE8D82634660FCDB3120E2B8D547C533 BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_0 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=400.000), Max=(X=200.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:CFD922A94B85DD13C87F7F8EC9E5D75C BaseClass:/Game/ObjectInteraction/BP_BaseInteraction.BP_BaseInteraction_C NativeClass:/Script/Engine.Actor Name:BP_BaseInteraction_C_UAID_047C1656A8D94F3802_1964089541 Label:BP_BaseInteraction SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1444.653 Y=1346.190 Z=-120.069), Max=(X=1495.874 Y=1395.810 Z=8.974) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:DE80DD7E45E812A910DE62843C9DBC8F BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2059835128 Label:BP_Hammer5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2068.000 Y=2228.000 Z=-152.000), Max=(X=2132.000 Y=2292.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:DE9501304174579DED25AE9AC4B0CF9C BaseClass:/Game/Interactible_Stations/BP_Chest.BP_Chest_C NativeClass:/Script/Engine.Actor Name:BP_Chest_C_UAID_047C1656A8D92F2D02_2137706287 Label:BP_Chest SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1026.000 Y=2136.000 Z=-120.000), Max=(X=1234.000 Y=2344.000 Z=104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:E5320C1B4FD9764CE7B54D8487AEC613 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_0 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=690.000), Max=(X=0.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:E6323AFA456E995D4925AD95C9649CFB BaseClass:/Game/Items/BP_Dagger.BP_Dagger_C NativeClass:/Script/Engine.Actor Name:BP_Dagger_C_UAID_047C1656A8D9472702_1786163175 Label:BP_Dagger2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1918.000 Y=2268.000 Z=-122.000), Max=(X=1982.000 Y=2332.000 Z=-48.236) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:EFCB583645BF862D2462EEA6C2771096 BaseClass:/Game/Items/BP_Hammer.BP_Hammer_C NativeClass:/Script/Engine.Actor Name:BP_Hammer_C_UAID_047C1656A8D9B92502_2062273129 Label:BP_Hammer6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2098.000 Y=2148.000 Z=-152.000), Max=(X=2162.000 Y=2212.000 Z=-16.886) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 31]
+ |   |   |   |- Guid:F07F1AF64C7C7C238EE1B4BF8C122DD8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_4 Label:SM_Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=3400.000 Z=-120.000), Max=(X=3000.000 Y=3500.000 Z=280.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Playground FolderGuid:6C02BB504B69D1F3D7A624B130C18E5B
+ |   |   |- [+] [ 32]
+ |   |   |   |- Guid:F7AF50484A241753D095CA9B61521028 BaseClass:/Game/Islands/BP_Island.BP_Island_C NativeClass:/Script/Engine.Actor Name:BP_Island_C_UAID_047C1656A8D9513802_2135306896 Label:BP_Island SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=930.000 Y=1700.000 Z=-50.000), Max=(X=1030.000 Y=1800.000 Z=50.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 33]
+ |   |   |   |- Guid:F80621C9446867154938FE81375207DA BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1048576.000 Y=-1048576.000 Z=-1048576.000), Max=(X=1048576.000 Y=1048576.000 Z=1048576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:0BA5F0A04EADB18E70D5B180D08FA34B
+ |   |   |- [+] [ 34]
+ |   |   |   |- Guid:FCAE5FEC4BE51E01CB619B9DF0C8D7EB BaseClass:/Game/Items/BP_Shield.BP_Shield_C NativeClass:/Script/Engine.Actor Name:BP_Shield_C_UAID_047C1656A8D9FF2402_1985072391 Label:BP_Shield SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1954.526 Y=2178.000 Z=-105.474), Max=(X=2025.474 Y=2242.000 Z=-34.526) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/FirstPerson/Maps/FirstPersonMap
+----------------------------------------------------------------------------------------------------------------
+FirstPersonMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of FirstPersonMap Persistent Level
+ |- Always loaded Actor Count: 42 
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_BaseInteraction_C_UAID_047C1656A8D94F3802_1964089541
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/DC/XODPY9TNFOM1DCRPXXG1KY
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_BaseInteraction_C_UAID_047C1656A8D9513802_2119973894
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/YU/COH3Y7VUIAX84GUB1P1HRD
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_BaseInteraction_C_UAID_047C1656A8D9513802_2122208895
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/JT/SLDHUMT7UV1AXRRSHEB53D
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_BlackHole_C_UAID_047C1656A8D94E3802_1705084360
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/9S/F35JF3VL22OHR491A863P7
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Chest_C_UAID_047C1656A8D92F2D02_2137706287
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7I/VU5A0ICZ7QJHR65YTXH1ZI
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Chest_C_UAID_047C1656A8D93F3602_1398823607
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/IW/N4X5Q1NSGORYBENHMUR1NE
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Dagger_C_UAID_047C1656A8D9472702_1786163175
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/T0/WEGDVQY27HOE8PG4QBBNYM
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Dagger_C_UAID_047C1656A8D9472702_1792267176
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/GE/U9D9DNVXZZ6X8MXJZQ5MQT
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Dagger_C_UAID_047C1656A8D9FF2402_1989177392
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/2N/GMUDQI8PMP0V4NI21R9TKA
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D90A2402_1522372271
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/NG/XJ8879J1CQDICXYTYWPVNV
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D90A2402_1674851272
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SM/NAEDSJ0DCVDOCIJGQSAXQV
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D90A2402_1677691273
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OP/808T60CT3C1MKTAQF99S1V
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D9B92502_2057891127
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/9S/UWAI5QLML93SG4BNAM5YBD
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D9B92502_2059835128
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GJ/60JHN1O6WG0QNY7POWH93F
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D9B92502_2062273129
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/WV/8EY4I25EC1P38HMV3U4S2O
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D9B92502_2066283130
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/F5/HGZOH858RE5IRVRNVO7WV3
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Hammer_C_UAID_047C1656A8D9B92502_2070667131
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/AV/1XG25YR2CACHW6OAT66VWT
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Island_C_UAID_047C1656A8D9513802_2135306896
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/2W/L1JR44I00V2RU8S6MWY5RM
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_IslandSpawner_C_UAID_047C1656A8D9523802_1095179073
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/JG/EXBYMME5JS6L4G4HVYPVX2
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_OxygenRefiller_C_UAID_047C1656A8D9974802_1855136103
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/UB/PJN0TFKEXVU4RO3BN1CXOB
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Shield_C_UAID_047C1656A8D9FF2402_1985072391
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/Q9/9W90CS43X26SKBM9YMPO9N
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BPShipTable_C_UAID_047C1647CE12344F02_1946243071
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/4Q/D2B4GM1F232O5NTQY853JI
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Brush_0
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.DirectionalLight_1
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ExponentialHeightFog_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FirstPersonExampleMap_C_1
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.PlayerStart_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.PostProcessVolume_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Ship_C_UAID_047C1647CE124C4E02_2058808239
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/PK/VQMCOVU1JVH6E270W82I8V
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkyAtmosphere_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkyLight_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_4
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_10
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_2001720423
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.VolumetricCloud_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.WorldInfo_0
+ |- Actor Package: /Game/FirstPerson/Maps/FirstPersonMap
+ |- Actor Path: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.WorldPartitionMiniMap_0
+ |- Actor Package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/CR/SRVPLA8UNZ8XIIP0E036DI
+
+----------------------------------------------------------------------------------------------------------------
+FirstPersonMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
