@@ -28,8 +28,6 @@ protected:
 	// Called when the actor is placed or modified in the editor
 	virtual void OnConstruction(const FTransform& Transform) override;
 
-	virtual void BeginPlay() override;
-	
 private:
 	// Updates the mesh based on the ResourceNodeType
 	void UpdateMesh() const;

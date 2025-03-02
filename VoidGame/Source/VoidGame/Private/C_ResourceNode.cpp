@@ -39,13 +39,6 @@ void AC_ResourceNode::OnConstruction(const FTransform& Transform)
     UpdateMesh();
 }
 
-void AC_ResourceNode::BeginPlay()
-{
-    Super::BeginPlay();
-    MeshComponent->DestroyComponent();
-    
-}
-
 void AC_ResourceNode::UpdateMesh() const
 {
     UStaticMesh* NewMesh;
@@ -127,4 +120,3 @@ void AC_ResourceNode::PostEditChangeProperty(FPropertyChangedEvent& PropertyChan
         UpdateMesh();
     }
 }
-
