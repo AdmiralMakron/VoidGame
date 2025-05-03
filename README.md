@@ -1,3 +1,7 @@
+
+#navigate to 
+
+##Read Me from previous semester
 # Repository Link: https://github.com/AdmiralMakron/VoidGame
 
 ## Old Goals
