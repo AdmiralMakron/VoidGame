@@ -1,5 +1,5 @@
 
-# navigate to https://github.com/AdmiralMakron/VoidGame/releases/tag/Release for the final build of semester 2
+# navigate to https://github.com/AdmiralMakron/VoidGame/releases/tag/Release for the final build of semester 2 (spring 25)
 
 ---------------------------------------------------------------------------------------------------------------
 ##Read Me from previous semester
