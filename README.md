@@ -1,6 +1,7 @@
 
-#navigate to 
+# navigate to https://github.com/AdmiralMakron/VoidGame/releases/tag/Release for the final build of semester 2
 
+---------------------------------------------------------------------------------------------------------------
 ##Read Me from previous semester
 # Repository Link: https://github.com/AdmiralMakron/VoidGame
 
